@@ -1,0 +1,5 @@
+class Indice{
+    private:
+
+    public:
+};
