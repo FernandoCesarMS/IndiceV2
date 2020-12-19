@@ -2,15 +2,13 @@
 #include <string>
 #include <iostream>
 
-class Indice
-{
+class Indice{
 private:
     int totalWords;
-    
-public:
     std::map<std::string, int> words;
+    float totalPercentage(float totalPercentage);
+public:
     Indice();
     void addWord(std::string word);
-    float totalPercentage(float totalPercentage);
-    std::string to_String();
+    void to_String();
 };
